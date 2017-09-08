@@ -21,3 +21,11 @@ function inc(n) {
 function dec(n) {
     n -= 1
 }
+
+function makeInt(n) {
+    parseInt(n, 10)
+}
+
+function preserveDecimal(n) {
+    parseFloat(n)
+}
